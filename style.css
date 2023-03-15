@@ -1,0 +1,109 @@
+header {
+    display: flex;
+    background-color: rgb(90, 92, 95);
+    color: white;
+    font-size: 30px;
+    font-family: 'Shantell Sans', cursive;
+    height: 80px;
+}
+
+header p {
+ width: 50%;
+ margin-top: 25px;
+ margin-left: 5px;
+ 
+}
+
+.redes {
+    display: flex;
+    list-style: none;
+    margin-top: 20px;
+    margin-left: 500px;
+}
+
+.redes i {
+    color: white;
+    margin-left: 10px;
+}
+
+
+body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLNxCxt60RcNZKDOQbHioOPS5jrltVm10gIh2axm7aG_FxBkSvhfbR9WXmRLxa5OjnJJM&usqp=CAU);
+}
+
+.btn-otro {
+    border: 1px solid black;
+    width: 100px;
+    height: 50px;
+    padding: 5px;
+    color: white;
+    background-color: rgb(90, 92, 95);
+}
+
+.boton {
+    border: 1px solid black;
+    width: 100px;
+    height: 50px;
+    padding: 5px;
+    color: white;
+    background-color: rgb(90, 92, 95);
+}
+
+#carouselExampleDark {
+    margin: 20PX 250PX 0PX 250PX;
+    font-family: 'Shantell Sans', cursive;
+} 
+
+.PiePag {
+    display: flex;
+    background-color: rgb(90, 92, 95);
+    color: white;
+    margin-top: 37px;
+    font-family: 'Shantell Sans', cursive;
+}
+
+.izq {
+    width: 50%;
+}
+
+.dere {
+    width: 50%;
+}
+
+.izq p {
+    font-family: 'Source Code Pro', monospace;
+    padding-right: 20%;
+    padding-left: 15px;
+    text-align: justify;
+}
+
+.dere p {
+    padding-left: 55%;
+}
+
+.cuadrado {
+    width: 50px; 
+    height: 50px; 
+    border: 1px solid black;
+    background-color: black;
+}
+
+.triangulo {
+    width: 0; 
+    height: 0; 
+    border-left: 50px solid;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent; 
+    rotate: 150deg;
+}
+
+.circulo {
+    width: 60px;
+    height: 60px;
+    -moz-border-radius: 20%;
+    -webkit-border-radius: 20%;
+    border-radius: 50%;
+    background: black;
+}
+
+

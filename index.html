@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title>GEOMETRIA</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <header>
+        <p>APRENDAMOS GEOMETRIA </p>
+        <ul class="redes">
+          <li><a href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a></li>
+          <li><a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a></li>
+          <li><a href="https://www.whatsapp.com/"><i class="bi bi-whatsapp"></i></a></li>
+      </ul> 
+    </header>
+    <main>
+        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3" class="active" aria-current="true"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item" data-bs-interval="10000">
+                <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="600" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#f5f5f5"></rect><text x="50%" y="20%" fill="#aaa" dy=".3em">CIRCULO</text></svg>
+                <div class="carousel-caption d-none d-md-block">
+                    <center><p class="circulo"></p></center>
+                  <h5>El círculo es una figura geométrica bidimensional representada por una línea curva cerrada -circunferencia- donde cualquier punto de la línea tiene la misma distancia respecto del centro.<BR><BR>HALLEMOS SU ÁREA JUNTOS</h5>
+                    <form>
+                      <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Ingrese Radio</label>
+                        <input type="number" class="form-control" id="radio" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text"></div>
+                      </div>
+                      <a class="boton" id="botoncirculo" href="">Hallar Área</a>
+                    </form>
+                  
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="600" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Second slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="20%" fill="#bbb" dy=".3em">TRIANGULO</text></svg>
+                <div class="carousel-caption d-none d-md-block">
+                        <center><p class="triangulo"></p></center>
+                  <h5>El triángulo es un polígono de tres lados.
+                      El triángulo está determinado por tres segmentos de recta que se denominan lados, o por tres puntos no alineados llamados vértices <BR><BR>HALLEMOS SU ÁREA JUNTOS</h5>
+                        <form>
+                          <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Ingrese base</label>
+                            <input type="number" class="form-control" id="baseT" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text"></div>
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Ingrese altura</label>
+                            <input type="number" class="form-control" id="alturaT">
+                          </div>
+                          
+                          <a class="boton" href="" id="botontriangulo">Hallar Área</a>
+                        </form>
+                  
+                </div>
+              </div>
+              <div class="carousel-item active">
+                <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="600" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Third slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#e5e5e5"></rect><text x="50%" y="20%" fill="#999" dy=".3em">CUADRADO</text></svg>
+                <div class="carousel-caption d-none d-md-block">
+                    <center><p class="cuadrado"></p></center>
+                  <h5>Un cuadrado es una figura geométrica plana que consiste en cuatro puntos unidos por segmentos de igual medida, que encierran una región del plano, formando ángulos rectos, <BR><BR>HALLEMOS SU ÁREA JUNTOS.</h5>
+                    <form>
+                      <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Ingrese longitud de un lado</label>
+                        <input type="number" class="form-control" id="baseC" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text"></div>
+                      </div>
+                      
+                      <a class="boton" href="" id="botoncuadrado">Hallar Área</a>
+                    </form>
+                  
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </main>
+    <footer>
+        <section class="PiePag">
+            <div class="izq">
+               <p>Esta página se creo con fines educativos y se hace un agradecimiento especial a la institucion educativa CESDE, a la MAESTRA e INGENIERA ROSALBA MESA MOTATO y demás personas que de alguna manera ayudaron a que esto fuera posible.</p> 
+            </div>
+            <div class="dere">
+                <P>&COPY;Cristian Valencia</P>
+                <P>Correo:cristianvalencia59@gmail.com</P>
+                <P>Contacto: 3206642355-3042460197 </P>
+               
+            </div>
+        </section>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
